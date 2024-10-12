@@ -111,8 +111,67 @@ body {
 
 }
 
-.header .hero-banner .hero-img {}
-
 .header .hero-banner .hero-img img {
     width: 540px;
+}
+
+/* About Section Style */
+
+
+.about {
+    margin: 100px auto;
+}
+
+.about .about-box {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.about .about-box .about-img {
+    width: 40%;
+}
+
+.about .about-box .about-img img {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+
+}
+
+.about .about-box .about-content {
+    text-align: center;
+    width: calc(((100% - 450px) - 10%));
+}
+
+.about .about-box .about-content .section-title {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.about .about-box .about-content .title-bottom-design {
+    border: 0;
+    border-bottom: 5px solid #FB980F;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.about .about-box .about-content .section-description {
+    margin-bottom: 30px;
+}
+
+.about .about-box .about-content .about-social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.about .about-box .about-content .about-social a {
+    font-size: 25px;
+    color: #3F181C;
 }
