@@ -44,13 +44,6 @@ body {
 
 
 
-
-
-
-
-
-
-
 /* Header Section Style */
 #header {
     background-color: #3F181C;
@@ -144,7 +137,7 @@ body {
 
 
 .about {
-    margin: 100px auto;
+    padding: 100px 0;
 }
 
 .about .about-box {
@@ -191,9 +184,8 @@ body {
 /* Our Menu Section Style */
 .our-menu {
     background-color: #252525;
-    padding: 30px 0px;
     color: #fff;
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 
 .our-menu .menu-title-bottom {
@@ -222,4 +214,56 @@ body {
     font-size: 18px;
     margin-bottom: 20px;
     opacity: 0.7;
+}
+
+/* Contact Us */
+.contact-us {
+    padding: 80px 0px;
+    background-color: #FBF4F6;
+}
+
+.contact-us .contact-content {
+    display: flex;
+    gap: 20%;
+    margin-top: 100px;
+}
+
+.contact-us .contact-content .contact-info {
+    list-style: none;
+}
+
+.contact-us .contact-content .contact-info li {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-us .contact-form {
+    width: 60%;
+}
+
+.contact-us .contact-form .form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-us .contact-form .form-control input[type='text'],
+input[type='email'],
+textarea {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #867F7B;
+    color: #867F7B;
+    font-size: 18px;
+}
+
+.btn-submit {
+    width: 150px;
+    background-color: #3F181B;
+    cursor: pointer;
+    padding: 15px 20px;
 }
