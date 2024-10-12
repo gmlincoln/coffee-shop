@@ -216,6 +216,24 @@ body {
     opacity: 0.7;
 }
 
+/* Gallery Section Style */
+.gallery {
+    padding: 100px 0px;
+}
+
+.gallery .gallery-items {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.gallery .gallery-items img {
+    width: 30%;
+    border-radius: 20px;
+}
+
 /* Contact Us */
 .contact-us {
     padding: 80px 0px;
