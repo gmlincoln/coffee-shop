@@ -267,3 +267,48 @@ textarea {
     cursor: pointer;
     padding: 15px 20px;
 }
+
+/* Footer Section Style */
+
+.footer {
+    background: #232625;
+    color: #fff;
+    font-size: 18px;
+    padding: 30px 0px;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .footer-social-media i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer .footer-content .footer-policy {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer .footer-policy li {
+    list-style: none;
+}
+
+
+.footer .footer-policy li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .footer-policy li i {
+    font-size: 5px;
+}
