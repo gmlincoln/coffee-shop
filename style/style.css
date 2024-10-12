@@ -10,3 +10,51 @@ body {
     font-family: "Poppins", sans-serif;
     /* font-family: "Miniver", cursive; */
 }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header Section Style */
+#header {
+    background-color: #3F181C;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.header nav ul li {
+    list-style: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.header nav ul .logo-text {
+    font-size: 36px;
+}
+
+.header nav ul .menu {
+    font-size: 18px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header nav ul .menu li a {
+    padding: 10px 20px;
+}
+
+.header nav ul .menu li a:hover {
+    background-color: #FC9817;
+
+    border-radius: 35px 10px;
+}
