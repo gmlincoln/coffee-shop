@@ -6,6 +6,7 @@
     padding: 0;
 }
 
+/* Common Shared Style */
 body {
     font-family: "Poppins", sans-serif;
     /* font-family: "Miniver", cursive; */
@@ -14,6 +15,15 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 35px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 /* Header Section Style */
@@ -55,6 +65,54 @@ body {
 
 .header nav ul .menu li a:hover {
     background-color: #FC9817;
-
+    color: #3F181C;
     border-radius: 35px 10px;
+}
+
+.header .hero-banner {
+    display: flex;
+    gap: 10%;
+    padding: 80px 0px;
+    align-items: center;
+}
+
+.header .hero-banner .hero-content {
+    color: #fff;
+}
+
+.header .hero-banner .hero-content .hero-content-subtitle {
+    color: #FC9817;
+    font-family: "Miniver", cursive;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.header .hero-banner .hero-content .hero-content-title {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.header .hero-banner .hero-content .hero-content-description {
+    font-size: 18px;
+    margin-bottom: 16px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.header .hero-banner .hero-content .hero-btn {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-order {
+    background-color: #FB980F;
+    color: #3F181C;
+    border: 1px solid #FB980F;
+
+}
+
+.header .hero-banner .hero-img {}
+
+.header .hero-banner .hero-img img {
+    width: 540px;
 }
